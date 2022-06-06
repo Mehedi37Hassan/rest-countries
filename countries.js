@@ -16,8 +16,8 @@ const getCountryHTML = country => {
     return `
         <div class="country">
             <img src="${country.flags.png}">
-            <h2>${country.name.common}</h2>
-            <h3>${country.capital}</h3>      
+            <h2>Name: ${country.name.common}</h2>
+            <h3>Capital: ${country.capital}</h3>      
                        
         </div>
 
