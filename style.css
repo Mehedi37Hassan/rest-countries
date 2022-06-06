@@ -1,0 +1,22 @@
+.countries {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.header {
+    text-align: center;
+    color: red;
+    font-size: 50px;
+}
+
+.country {
+    border-radius: 20px;
+    padding: 50px;
+    border: 2px solid red;
+    background-color: aquamarine;
+}
+
+.country img {
+    width: 300px
+}
